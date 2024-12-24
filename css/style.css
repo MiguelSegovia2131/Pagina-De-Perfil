@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    font-style: oblique;
+    text-decoration: none;
+    color: crimson;
+}
+
+header {
+    padding: 15px;
+    background-color: aquamarine;
+    height: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonCerrarSesion {
+    border-radius: 20px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: cadetblue;
+    width: 150px;
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    font-size: x-large;
+}
+
+.bloqueGeneralContenido {
+    display: flex;
+    margin: 20px 30px 20px 20px;
+}
+
+main{
+    width: 695px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rectanguloCeleste {
+    width: 695px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.contenidoUsuario {
+    padding: 5px;
+    position: relative;
+    top: -130px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+.infoUsuario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botonEditarPerfil {
+    color: dodgerblue;
+    margin: auto;
+    border: 1px solid black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    gap: 15px;
+}
+
+footer {
+    flex-direction: column;
+    display: flex;
+    margin-left: 250px;
+}
+
+ul {
+    list-style: none;
+}
+
+.fotoPerfil {
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.bloqueSolicitudes {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px whitesmoke;
+    width: 400px;
+    margin: 20px;
+}
+
+.bloqueConexiones {
+    display: flex;
+    box-shadow: 5px 5px whitesmoke;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: x-large;
+}
